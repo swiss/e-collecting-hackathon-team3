@@ -124,8 +124,8 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 
 ## Team Members
 
-- Name/GitHub Account (role)
-- Name/GitHub Account (role)
+- Daniel Graf/GitHub Account (role)
+- Sandro Scalco/GitHub Account (role)
 - Name/GitHub Account (role)
 - ...
 
