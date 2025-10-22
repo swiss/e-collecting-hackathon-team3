@@ -16,6 +16,34 @@ Unser System ermöglicht das digitale Sammeln von Unterschriften für Volksbegeh
 -   **Föderale Souveränität**: Gemeinden behalten ihre autonome Rolle bei der Bescheinigung
 
 
+## Developer Setup
+
+### Commit Konventionen
+
+Wir verwenden [conventionalcommits](https://www.conventionalcommits.org/en/) für unsere Commit-Nachrichten.
+
+### Prettier & Husky
+
+Folgen Sie der [Anleitung](npm install --save-dev husky) für die Installation:
+
+```bash
+# Installation
+npm install --save-dev husky prettier pretty-quick
+npx husky init
+
+# Pre-commit Hook in .husky/pre_commit konfigurieren
+npx pretty-quick --staged
+
+# This tells your system: "Hey, this file is a script that can be executed."
+chmod +x .husky/pre-commit
+
+# make some changes
+git add .
+git commit -m "your new message"
+git push
+```
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct.
