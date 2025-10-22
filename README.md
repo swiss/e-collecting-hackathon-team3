@@ -22,10 +22,12 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 
 ## Team Members
 
-- [Sandro Scalco](https://github.com/sansan88) 
-- Daniel Graf/GitHub Account
-- ...
+- [Sandro Scalco](https://github.com/sansan88) - Digital Democracy Hub Schweiz
+- Daniel Graf - Stiftung für direkte Demokratie
+- tba
+- tba
+- tba
 
 ## License
 
-This software is licensed under a AGPL 3.0 License - see the [LICENSE](LICENSE) file for details. Please feel free to [choose any other](https://choosealicense.com/) [Open Source Initiative approved license](https://opensource.org/licenses) (e.g. a permissive license such as [MIT](https://opensource.org/license/mit)). Other content (e.g. text, images, etc.) is licensed under a [Creative Commons CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Exceptions are possible in consultation with the organizers.
+This software is licensed under a EUPL 1.2 License - see the [LICENSE](LICENSE) file for details. All concepts and documents (markdown files) are licensed under CC BY-SA 4.0.
