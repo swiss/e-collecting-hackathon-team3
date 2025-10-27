@@ -20,72 +20,36 @@ E-Collecting ermöglicht es Bürger:innen, mit Hilfe der SSI-basierten **swiyu E
 
 ---
 ```mermaid
-sequenceDiagram
-    actor User as Bürger
-    participant Portal as E-Collecting Portal
-    participant Addr as Adressservice
-    participant Gemeinde as Gemeinde System
-    participant Wallet as Swiyu Wallet
-    participant Issuer as Generic Issuer (Gemeinde)
-
-    Note over User,Issuer: Phase 1: Adressübermittlung & Gemeindezuordnung
+flowchart TD
+    Start([Bürger startet Prozess]) --> Adresse[Wohnadresse eingeben]
+    Adresse --> AdressCheck{Adresse<br/>gültig?}
+    AdressCheck -->|Ja| Gemeinde[Gemeinde ermittelt<br/>via BFS-Nummer]
+    AdressCheck -->|Nein| Fehler1[Fehlermeldung]
     
-    User->>Portal: Möchte Stimmrechtsausweis beantragen
-    Portal->>User: Fordert Wohnadresse an
-    User->>Portal: Übermittelt Strasse, Hausnummer, PLZ, Ort
-    Portal->>Addr: Validiert Adressdaten
-    Addr->>Addr: Prüft Adresse & ermittelt BFS-Nummer
-    Addr-->>Portal: Gibt BFS-Nummer zurück
-    Portal->>Portal: Ermittelt zuständige Gemeinde
+    Gemeinde --> QR1[QR-Code scannen]
+    QR1 --> Ident[Identitätsdaten übermitteln<br/>Vorname, Nachname, Geburtsdatum]
     
-    Note over User,Issuer: Phase 2: Identifikation & Berechtigung
+    Ident --> Prüfung{Stimm-<br/>berechtigt?}
+    Prüfung -->|Nein| Fehler2[Zugriff verweigert]
+    Prüfung -->|Ja| Liste[Liste Volksbegehren anzeigen]
     
-    Portal->>User: Zeigt QR-Code für Identifikation (OID4VP)
-    User->>Wallet: Scannt QR-Code mit Swiyu Wallet
-    Wallet->>Portal: Öffnet Verification Request
-    Portal->>Wallet: Fordert Attribute an (Vorname, Nachname, Geburtsdatum, optional AHV-Nr.)
-    User->>Wallet: Gibt Freigabe für Attribute
-    Wallet->>Portal: Übermittelt selektierte Attribute (SD-JWT VC)
-    Portal->>Gemeinde: Leitet Daten zur Prüfung weiter
+    Liste --> Auswahl[Volksbegehren auswählen]
+    Auswahl --> QR2[QR-Code scannen]
+    QR2 --> Import[Stimmrechtsausweis<br/>in Wallet importieren]
+    Import --> Ende([Prozess abgeschlossen])
     
-    Gemeinde->>Gemeinde: Prüft Stimmberechtigung
-    Gemeinde->>Gemeinde: Prüft Wohnsitz in Gemeinde
+    Fehler1 --> Ende
+    Fehler2 --> Ende
     
-    alt Bürger ist stimmberechtigt
-        Gemeinde-->>Portal: Berechtigung bestätigt
-        
-        Note over User,Issuer: Phase 3: Volksbegehren-Auswahl
-        
-        Portal->>User: Zeigt Liste verfügbarer Volksbegehren
-        User->>Portal: Wählt Volksbegehren aus
-        
-        Note over User,Issuer: Phase 4: Credential-Ausstellung
-        
-        Portal->>Issuer: Fordert Stimmrechtsausweis-Credential an
-        
-        
-        alt Stimmrechtsausweis ausstellen    
-            Issuer->>Issuer: Erstellt Credential mit:<br/>- Nullifier (Bürger+Volksbegehren+Secret)<br/>- Ausstelldatum<br/>- Name Volksbegehren<br/>- Gültig bis (Laufzeit)<br/>- Amtsstelle (BFS-Nummer/DID)
-            Issuer->>Issuer: Signiert Credential (ECDSA)
-            Issuer->>Portal: Gibt Credential Offer zurück
-            Portal->>User: Zeigt QR-Code (OID4VCI)
-            User->>Wallet: Scannt QR-Code
-            Wallet->>Issuer: Fordert Credential an (Authorization)
-            Issuer->>Wallet: Stellt Stimmrechtsausweis aus (SD-JWT VC)
-            Wallet->>Wallet: Speichert Credential sicher
-            Wallet-->>User: Bestätigt Import des Stimmrechtsausweises
-        else Stimmrechtsausweis nicht ausstellen
-            Issuer-->>Portal: Anfrage für Stimmrechtsausweis-Credential ablehnen
-            Portal-->>User: Zeigt Ablehnungsmeldung
-        end
-
-
-    else Bürger ist nicht stimmberechtigt
-        Gemeinde-->>Portal: Berechtigung verweigert
-        Portal-->>User: Zeigt Ablehnungsmeldung
-    end
+    style Start fill:#e1f5e1
+    style Ende fill:#e1f5e1
+    style Fehler1 fill:#ffe1e1
+    style Fehler2 fill:#ffe1e1
+    style QR1 fill:#fff4e1
+    style QR2 fill:#fff4e1
+    style Import fill:#e1e5ff
 ```
-[Sequenzdigramm](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Sequenzdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+[Stimmrechtsausweis Flussdiagramm.md](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Flussdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 ## Developer Setup
