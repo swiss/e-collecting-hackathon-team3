@@ -24,7 +24,7 @@ Wir verwenden [conventionalcommits](https://www.conventionalcommits.org/en/) fü
 
 ### Prettier & Husky
 
-Folgen Sie der [Anleitung](npm install --save-dev husky) für die Installation:
+Folgen Sie der Anleitung für die Installation:
 
 ```bash
 # Installation
@@ -52,7 +52,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 
 - [Sandro Scalco](https://github.com/sansan88) - Digital Democracy Hub Schweiz
 - Daniel Graf - Stiftung für direkte Demokratie
-- tba
+- [David Buchmann](https://github.com/dbu/) - Liip AG
 - tba
 - tba
 
