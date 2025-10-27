@@ -15,8 +15,21 @@ Unser System ermöglicht das digitale Sammeln von Unterschriften für Volksbegeh
 -   **Privacy-by-Design**: Anonyme Unterschriften via Nullifier-Konzept -- keine personenbezogenen Daten on-chain
 -   **Föderale Souveränität**: Gemeinden behalten ihre autonome Rolle bei der Bescheinigung
 
-## 1. Zielsetzung
+## 1. Zielsetzung für den Hackathon
 E-Collecting ermöglicht es Bürger:innen, mit Hilfe der SSI-basierten **swiyu E-ID App** ihre Stimmberechtigung nachzuweisen und Willensbekundungen **fälschungssicher, anonym und einmalig** für ein konkretes Volksbegehren abzugeben.
+
+Unser Wirken vor Ort adressiert primär die Topics 2, 5, 6 und 7:
+- [**Topic 5**](https://github.com/swiss/e-collecting-hackathon-team3/issues/8) (Ausschluss unrechtmässiger Unterschriften): Durch swiyu E-ID-Authentifizierung und unser innovatives Nullifier-Konzept für anonymen Duplikat-Schutz auf der Blockchain
+- [**Topic 6**](https://github.com/swiss/e-collecting-hackathon-team3/issues/9) (Verhinderung unterschlagener Unterschriften): Via Quittungs-VC und öffentlich verifizierbarer Blockchain – Bürger:innen können ihre Unterschrift jederzeit selbst prüfen (entspricht dem "Tracker-Konzept" aus dem Whitepaper)
+- [**Topic 7**](https://github.com/swiss/e-collecting-hackathon-team3/issues/10) (Wahrung des Stimmgeheimnisses): Privacy-by-Design mit Nullifier statt Identität on-chain (entspricht Stufe 2 im Whitepaper, erweiterbar auf Stufe 3 mit ZK-Proofs)
+- [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) (Zugang zu Informationen): Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz
+
+Sekundär decken wir Topics 1 und 9 ab durch die Generic Verifier/Issuer-Architektur (aktuelle Version des Prototyps) und Integrationen in Gemeinden mit unserem Konzept “How low can we go”.
+
+Topics 3 und 8 sind mit unserer Architektur technisch leicht erweiterbar oder bereits in der neuen Version des Prototyps integriert, Topic 4 klammern wir bisher bewusst aus, weil wir den Schutz des Stimmgeheimnis höher gewichten als das Interesse von Komitees, im Rahem des e-Collecting-Prozesses Informationen «zu schalten» bzw. an Nutzer:innen «zustellen» zu können. 
+
+Wir werden sicherlich an der Verbindung der einzelnen Komponenten sowie der Integration der Secure Appliance für Gemeinden arbeiten. Die Topics sind in den folgenden [Issues](https://github.com/swiss/e-collecting-hackathon-team3/issues/3) beschrieben.
+
 
 ---
 ```mermaid
@@ -52,11 +65,15 @@ flowchart TD
 [Stimmrechtsausweis Flussdiagramm.md](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Flussdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 Eine Kopie ist hier im Repository abgelegt: docs/diagramms/Stimmrechtsausweis Flussdiagramm.md & docs/diagramms/Stimmrechtsausweis Squenzdiagramm.md
 
-### Partizipations-Meeting - Réunion de participation | 02.10.2025 | beta.ecollecting.ch 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
 
 ### E-Collecting: Eröffnungsevent Partizipativer Prozess
+Vorstellung Democracy Hub Schweiz und präsentation erste Version des Beta E-Collecting Pilots
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WGUTi2jSaYw/0.jpg)](https://youtu.be/WGUTi2jSaYw?si=ZXLnd7OrheMFf-jG&t=7224)
+
+
+### Partizipations-Meeting - Réunion de participation | 02.10.2025 | beta.ecollecting.ch 
+Vorstellung neue Version des Beta E-Collecting Pilot
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
 
 
 
