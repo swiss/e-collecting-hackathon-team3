@@ -50,6 +50,14 @@ flowchart TD
     style Import fill:#e1e5ff
 ```
 [Stimmrechtsausweis Flussdiagramm.md](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Flussdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+Eine Kopie ist hier im Repository abgelegt: docs/diagramms/Stimmrechtsausweis Flussdiagramm.md & docs/diagramms/Stimmrechtsausweis Squenzdiagramm.md
+
+### Partizipations-Meeting - Réunion de participation | 02.10.2025 | beta.ecollecting.ch 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
+
+### E-Collecting: Eröffnungsevent Partizipativer Prozess
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WGUTi2jSaYw/0.jpg)](https://youtu.be/WGUTi2jSaYw?si=ZXLnd7OrheMFf-jG&t=7224)
+
 
 
 ## Developer Setup
