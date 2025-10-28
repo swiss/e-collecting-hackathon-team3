@@ -19,10 +19,15 @@ Unser System ermöglicht das digitale Sammeln von Unterschriften für Volksbegeh
 E-Collecting ermöglicht es Bürger:innen, mit Hilfe der SSI-basierten **swiyu E-ID App** ihre Stimmberechtigung nachzuweisen und Willensbekundungen **fälschungssicher, anonym und einmalig** für ein konkretes Volksbegehren abzugeben.
 
 Unser Wirken vor Ort adressiert primär die Topics 2, 5, 6 und 7:
-- [**Topic 5**](https://github.com/swiss/e-collecting-hackathon-team3/issues/8) (Ausschluss unrechtmässiger Unterschriften): Durch swiyu E-ID-Authentifizierung und unser innovatives Nullifier-Konzept für anonymen Duplikat-Schutz auf der Blockchain
-- [**Topic 6**](https://github.com/swiss/e-collecting-hackathon-team3/issues/9) (Verhinderung unterschlagener Unterschriften): Via Quittungs-VC und öffentlich verifizierbarer Blockchain – Bürger:innen können ihre Unterschrift jederzeit selbst prüfen (entspricht dem "Tracker-Konzept" aus dem Whitepaper)
-- [**Topic 7**](https://github.com/swiss/e-collecting-hackathon-team3/issues/10) (Wahrung des Stimmgeheimnisses): Privacy-by-Design mit Nullifier statt Identität on-chain (entspricht Stufe 2 im Whitepaper, erweiterbar auf Stufe 3 mit ZK-Proofs)
-- [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) (Zugang zu Informationen): Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz
+
+| Topic | Beschreibung |
+| -| ------- |
+| [**Topic 5**](https://github.com/swiss/e-collecting-hackathon-team3/issues/8 | (Ausschluss unrechtmässiger Unterschriften): Durch swiyu E-ID-Authentifizierung und unser innovatives Nullifier-Konzept für anonymen Duplikat-Schutz auf der Blockchain |
+| [**Topic 6**](https://github.com/swiss/e-collecting-hackathon-team3/issues/9) | (Verhinderung unterschlagener Unterschriften): Via Quittungs-VC und öffentlich verifizierbarer Blockchain – Bürger:innen können ihre Unterschrift jederzeit selbst prüfen (entspricht dem "Tracker-Konzept" aus dem Whitepaper |
+| [**Topic 7**](https://github.com/swiss/e-collecting-hackathon-team3/issues/10) | (Wahrung des Stimmgeheimnisses): Privacy-by-Design mit Nullifier statt Identität on-chain (entspricht Stufe 2 im Whitepaper, erweiterbar auf Stufe 3 mit ZK-Proofs |
+| [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) | (Zugang zu Informationen): Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz
+ |
+| x | Text |
 
 Sekundär decken wir Topics 1 und 9 ab durch die Generic Verifier/Issuer-Architektur (aktuelle Version des Prototyps) und Integrationen in Gemeinden mit unserem Konzept “How low can we go”.
 
