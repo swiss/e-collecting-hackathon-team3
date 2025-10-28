@@ -77,10 +77,12 @@ Vorstellung Democracy Hub Schweiz und präsentation erste Version des Beta E-Col
 Vorstellung neue Version des Beta E-Collecting Pilot
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
 
+## Screenshots
+### Adminoberfläche Stimmrechtsausweis als VC
+<img width="1822" height="1127" alt="screenshot_beta-ecollecting-stimmrechtsausweis" src="https://github.com/user-attachments/assets/ef4b259f-8630-4a2a-8905-4d0458d388ed" />
 
-## Screenshots Adminoberfläche Stimmrechtsausweis als VC
-
-
+### Adminoberfläche Demo Gemeinde
+<img width="1822" height="1127" alt="screenshot_beta-ecollecting-gemeinde" src="https://github.com/user-attachments/assets/c20cc32b-0e34-4f3e-b502-2a76688af352" />
 
 ## Developer Setup
 
