@@ -51,7 +51,6 @@ Vorstellung neue Version des Beta E-Collecting Pilot
 ### Adminoberfläche Demo Gemeinde
 <img width="1822" height="1127" alt="screenshot_beta-ecollecting-gemeinde" src="https://github.com/user-attachments/assets/c20cc32b-0e34-4f3e-b502-2a76688af352" />
 
----
 ## Diagramme
 
 ### Flussdiagramm Stimmrechtsausweis ausstellen
@@ -89,7 +88,6 @@ flowchart TD
 [Stimmrechtsausweis Flussdiagramm.md](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Flussdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 Eine Kopie ist hier im Repository abgelegt: docs/diagramms/Stimmrechtsausweis Flussdiagramm.md & docs/diagramms/Stimmrechtsausweis Squenzdiagramm.md
 
----
 ## Developer Setup
 
 ### Commit Konventionen
@@ -117,7 +115,6 @@ git commit -m "your new message"
 git push
 ```
 
----
 ## Contributing
 
 Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct.
