@@ -21,7 +21,7 @@ E-Collecting ermöglicht es Bürger:innen, mit Hilfe der SSI-basierten **swiyu E
 Unser Wirken vor Ort adressiert primär die Topics 2, 5, 6 und 7:
 
 | Topic | Titel | Beschreibung |
-| -| --- | ------- |
+| -- | --- | ------- |
 | [**Topic 1**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
 | [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) | Zugang zu Informationen | Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz |
 | [**Topic 3**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
