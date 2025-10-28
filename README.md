@@ -78,6 +78,9 @@ Vorstellung neue Version des Beta E-Collecting Pilot
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
 
 
+## Screenshots Adminoberfläche Stimmrechtsausweis als VC
+
+
 
 ## Developer Setup
 
