@@ -22,23 +22,16 @@ Unser Wirken vor Ort adressiert primär die Topics 2, 5, 6 und 7:
 
 | Topic | Titel | Beschreibung |
 | -- | --- | ------- |
-| [**Topic 1**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-| [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) | Zugang zu Informationen | Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz |
-| [**Topic 3**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-| [**Topic 4**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-| [**Topic 5**](https://github.com/swiss/e-collecting-hackathon-team3/issues/8) | Ausschluss unrechtmässiger Unterschriften | Durch swiyu E-ID-Authentifizierung und unser innovatives Nullifier-Konzept für anonymen Duplikat-Schutz auf der Blockchain |
-| [**Topic 6**](https://github.com/swiss/e-collecting-hackathon-team3/issues/9) | Verhinderung unterschlagener Unterschriften | Via Quittungs-VC und öffentlich verifizierbarer Blockchain – Bürger:innen können ihre Unterschrift jederzeit selbst prüfen (entspricht dem "Tracker-Konzept" aus dem Whitepaper) |
+| [**Topic 1**](https://github.com/swiss/e-collecting-hackathon-team3/issues/4) | Vom Unterstützungswillen zur Unterstützungsbekundung |  |
+| [**Topic 2**](https://github.com/swiss/e-collecting-hackathon-team3/issues/5) | Zugang zu aktuellen Informationen über die eingereichten Unterstützungsbekundungen | Real-time Blockchain Explorer und Statistik-Dashboard für totale Transparenz |
+| [**Topic 3**](https://github.com/swiss/e-collecting-hackathon-team3/issues/3) | Zuschreibung der Unterstützungsbekundungen an Komitees und Sammelunternehmen |  |
+| [**Topic 4**](https://github.com/swiss/e-collecting-hackathon-team3/issues/7) | Unterbreitung von Argumenten der Komitees via E-Collecting | ❌ wird von unserem Projekt nicht direkt adressiert |
+| [**Topic 5**](https://github.com/swiss/e-collecting-hackathon-team3/issues/8) | Ausschluss unrechtmässiger Unterstützungsbekundungen | Durch swiyu E-ID-Authentifizierung und unser innovatives Nullifier-Konzept für anonymen Duplikat-Schutz auf der Blockchain |
+| [**Topic 6**](https://github.com/swiss/e-collecting-hackathon-team3/issues/9) | Verhinderung unterschlagener Unterstützungsbekundungen | Via Quittungs-VC und öffentlich verifizierbarer Blockchain – Bürger:innen können ihre Unterschrift jederzeit selbst prüfen (entspricht dem "Tracker-Konzept" aus dem Whitepaper) |
 | [**Topic 7**](https://github.com/swiss/e-collecting-hackathon-team3/issues/10) | Wahrung des Stimmgeheimnisses | Privacy-by-Design mit Nullifier statt Identität on-chain (entspricht Stufe 2 im Whitepaper, erweiterbar auf Stufe 3 mit ZK-Proofs) |
-| [**Topic 8**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-| [**Topic 9**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-| [**Topic 10**](https://github.com/swiss/e-collecting-hackathon-team3/issues/) | XXX |  |
-
-Sekundär decken wir Topics 1 und 9 ab durch die Generic Verifier/Issuer-Architektur (aktuelle Version des Prototyps) und Integrationen in Gemeinden mit unserem Konzept “How low can we go”.
-
-Topics 3 und 8 sind mit unserer Architektur technisch leicht erweiterbar oder bereits in der neuen Version des Prototyps integriert, Topic 4 klammern wir bisher bewusst aus, weil wir den Schutz des Stimmgeheimnis höher gewichten als das Interesse von Komitees, im Rahem des e-Collecting-Prozesses Informationen «zu schalten» bzw. an Nutzer:innen «zustellen» zu können. 
-
-Wir werden sicherlich an der Verbindung der einzelnen Komponenten sowie der Integration der Secure Appliance für Gemeinden arbeiten. Die Topics sind in den folgenden [Issues](https://github.com/swiss/e-collecting-hackathon-team3/issues/3) beschrieben.
-
+| [**Topic 8**](https://github.com/swiss/e-collecting-hackathon-team3/issues/11) | Integration mit dem papierbasierten Prozess |  |
+| [**Topic 9**](https://github.com/swiss/e-collecting-hackathon-team3/issues/12) | Erleichterte Einführung für Gemeinden mit Effizienzgewinn; auf der Grundlage von bestehender Infrastruktur und bestehenden Prozessen |  |
+| [**Topic 10**](https://github.com/swiss/e-collecting-hackathon-team3/issues/13) | E-Collecting für alle föderalen Ebenen |  |
 
 ---
 ```mermaid
