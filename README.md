@@ -52,9 +52,9 @@ Vorstellung neue Version des Beta E-Collecting Pilot
 <img width="1822" height="1127" alt="screenshot_beta-ecollecting-gemeinde" src="https://github.com/user-attachments/assets/c20cc32b-0e34-4f3e-b502-2a76688af352" />
 
 ---
-## Diagramme
+## Diagramme
 
-## Flussdiagramm Stimmrechtsausweis ausstellen
+### Flussdiagramm Stimmrechtsausweis ausstellen
 
 ```mermaid
 flowchart TD
