@@ -2,9 +2,9 @@
 
 *[Beta E-Collecting](https://beta.ecollecting.ch) Das Pilotprojekt startete im Dezember 2024. Es will das Sammeln von Unterschriften für Volksbegehren digital, sicher und barrierefrei machen – als Ergänzung zum Papier. Dieser Pilot testet eine mögliche Variante von E-Collecting mittels der Beta-ID des Bundes. Hinter dem nicht profitorientierten Projekt stehen der Digital Democracy Hub Schweiz und die Stiftung für direkte Demokratie.*
 
-## Approach
+## Kernidee und Ausgangspunkt
 
-**Kernidee und Ausgangspunkt:**
+**Einleitung:**
 
 Am Hackathon möchten wir das [Pilotprojekt](https://beta.ecollecting.ch/de/stimmregister) mit Fokus auf  Stimmregister-Nachweis für anonyme Willensbekundungen weiterentwickeln. 
 
@@ -33,7 +33,29 @@ Unser Wirken vor Ort adressiert primär die Topics 2, 5, 6 und 7:
 | [**Topic 9**](https://github.com/swiss/e-collecting-hackathon-team3/issues/12) | Erleichterte Einführung für Gemeinden mit Effizienzgewinn; auf der Grundlage von bestehender Infrastruktur und bestehenden Prozessen |  |
 | [**Topic 10**](https://github.com/swiss/e-collecting-hackathon-team3/issues/13) | E-Collecting für alle föderalen Ebenen |  |
 
+## Videos
+### E-Collecting: Eröffnungsevent Partizipativer Prozess
+Vorstellung Democracy Hub Schweiz und präsentation erste Version des Beta E-Collecting Pilots
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WGUTi2jSaYw/0.jpg)](https://youtu.be/WGUTi2jSaYw?si=ZXLnd7OrheMFf-jG&t=7224)
+
+
+### Partizipations-Meeting - Réunion de participation | 02.10.2025 | beta.ecollecting.ch 
+Vorstellung neue Version des Beta E-Collecting Pilot
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
+
+## Screenshots
+### Adminoberfläche Stimmrechtsausweis als VC
+<img width="1822" height="1127" alt="screenshot_beta-ecollecting-stimmrechtsausweis" src="https://github.com/user-attachments/assets/ef4b259f-8630-4a2a-8905-4d0458d388ed" />
+
+### Adminoberfläche Demo Gemeinde
+<img width="1822" height="1127" alt="screenshot_beta-ecollecting-gemeinde" src="https://github.com/user-attachments/assets/c20cc32b-0e34-4f3e-b502-2a76688af352" />
+
 ---
+## Diagramme
+
+## Flussdiagramm Stimmrechtsausweis ausstellen
+
 ```mermaid
 flowchart TD
     Start([Bürger startet Prozess]) --> Adresse[Wohnadresse eingeben]
@@ -67,23 +89,7 @@ flowchart TD
 [Stimmrechtsausweis Flussdiagramm.md](https://github.com/Digital-Democracy-Hub-Schweiz/e-collecting-pilot/blob/main/Konzepte/Stimmrechtsausweis%20Flussdiagramm.md) © 2025 by [Digital Democracy Hub](https://digitaldemocracyhub.ch) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 Eine Kopie ist hier im Repository abgelegt: docs/diagramms/Stimmrechtsausweis Flussdiagramm.md & docs/diagramms/Stimmrechtsausweis Squenzdiagramm.md
 
-
-### E-Collecting: Eröffnungsevent Partizipativer Prozess
-Vorstellung Democracy Hub Schweiz und präsentation erste Version des Beta E-Collecting Pilots
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WGUTi2jSaYw/0.jpg)](https://youtu.be/WGUTi2jSaYw?si=ZXLnd7OrheMFf-jG&t=7224)
-
-
-### Partizipations-Meeting - Réunion de participation | 02.10.2025 | beta.ecollecting.ch 
-Vorstellung neue Version des Beta E-Collecting Pilot
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tgu5kQuClOU/0.jpg)](https://youtu.be/Tgu5kQuClOU?si=ClhrBP_JFL2wON_5&t=3544)
-
-## Screenshots
-### Adminoberfläche Stimmrechtsausweis als VC
-<img width="1822" height="1127" alt="screenshot_beta-ecollecting-stimmrechtsausweis" src="https://github.com/user-attachments/assets/ef4b259f-8630-4a2a-8905-4d0458d388ed" />
-
-### Adminoberfläche Demo Gemeinde
-<img width="1822" height="1127" alt="screenshot_beta-ecollecting-gemeinde" src="https://github.com/user-attachments/assets/c20cc32b-0e34-4f3e-b502-2a76688af352" />
-
+---
 ## Developer Setup
 
 ### Commit Konventionen
@@ -111,7 +117,7 @@ git commit -m "your new message"
 git push
 ```
 
-
+---
 ## Contributing
 
 Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct.
