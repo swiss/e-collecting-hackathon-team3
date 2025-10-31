@@ -125,7 +125,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - Daniel Graf - Stiftung für direkte Demokratie
 - [David Buchmann](https://github.com/dbu/) - Liip AG
 - [Maximilian Rietschel](https://github.com/romtecmax)
-- tba
+- [Erik Schönenberger](https://github.com/datenreisen)
 
 ## License
 
