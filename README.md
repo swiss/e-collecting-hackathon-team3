@@ -124,7 +124,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - [Sandro Scalco](https://github.com/sansan88) - Digital Democracy Hub Schweiz
 - Daniel Graf - Stiftung für direkte Demokratie
 - [David Buchmann](https://github.com/dbu/) - Liip AG
-- tba
+- [Maximilian Rietschel](https://github.com/romtecmax)
 - tba
 
 ## License
