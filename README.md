@@ -33,6 +33,9 @@ Unser System ermöglicht das digitale Sammeln von Unterschriften für Volksbegeh
 <img src="https://github.com/swiss/e-collecting-hackathon-team3/blob/main/vision/diagram.png" />
 
 
+## Schlusspräsentation
+[Praesentation.pdf](https://github.com/swiss/e-collecting-hackathon-team3/blob/main/presentation/Praesentation.pdf)
+
 ## Team Members
 
 - [Sandro Scalco](https://github.com/sansan88) - Digital Democracy Hub Schweiz
