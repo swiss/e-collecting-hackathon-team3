@@ -1,6 +1,6 @@
 # 3) Update_CH
 
-Pitch : [Google Drive](https://docs.google.com/presentation/d/1nnjI3S2vm0zWIGJR33QyXo3_bb9VwULtzKTLTMF0CZo/edit?usp=sharing) / [Github](./Hackathon Team 3.pdf)
+Pitch : [Google Drive](https://docs.google.com/presentation/d/1nnjI3S2vm0zWIGJR33QyXo3_bb9VwULtzKTLTMF0CZo/edit?usp=sharing) / [Github](https://github.com/swiss/e-collecting-hackathon-team3/blob/main/Hackathon%20Team%203.pdf)
 
 
 
