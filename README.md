@@ -126,6 +126,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of condu
 - [David Buchmann](https://github.com/dbu/) - Liip AG
 - [Maximilian Rietschel](https://github.com/romtecmax)
 - [Erik Schönenberger](https://github.com/datenreisen)
+- Lucian Butera
 
 ## License
 
