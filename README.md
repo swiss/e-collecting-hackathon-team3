@@ -1,6 +1,8 @@
 # 3) Update_CH
 
-slides : https://docs.google.com/presentation/d/1nnjI3S2vm0zWIGJR33QyXo3_bb9VwULtzKTLTMF0CZo/edit?usp=sharing
+Pitch : [Google Drive](https://docs.google.com/presentation/d/1nnjI3S2vm0zWIGJR33QyXo3_bb9VwULtzKTLTMF0CZo/edit?usp=sharing) / [Github](./Hackathon Team 3.pdf)
+
+
 
 Ausgangslage: *[Beta E-Collecting](https://beta.ecollecting.ch) Das Pilotprojekt startete im Dezember 2024. Es will das Sammeln von Unterschriften für Volksbegehren vertraulich, barrierefrei und mehrheitsfähig machen – als Ergänzung zum Papier. Dieser Pilot testet eine mögliche Variante von E-Collecting mittels der Beta-ID des Bundes. Hinter dem nicht profitorientierten Projekt stehen der Digital Democracy Hub Schweiz und die Stiftung für direkte Demokratie.*
 
