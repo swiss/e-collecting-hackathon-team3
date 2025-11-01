@@ -1,4 +1,56 @@
 # E-Collecting Zielbild «Vertraulich, Barrierefrei, Mehrheitsfähig»
+
+
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart TD
+ subgraph col1["Benutzer:in"]
+        A["Bürger:in entscheidet sich<br>für E-Collecting"]
+        n1["Installation der App<br>Authentifizierung der Benutzer:in<br>Initialisierung der Krypto<br>Opt-In für E-Collecting<br>Opt-Out für Papierprozess"]
+        n8["Benutzer:in wählt<br>Volksbegehren zur<br>Unterzeichnung aus"]
+        n16["Download der Berechtigung<br>für Willensbekundung und<br>Verwendung zur Unterschrift"]
+        n9["Download der Berechtigung<br>für Willensbekundung und<br>Verwendung zur Unterschrift"]
+  end
+ subgraph col2["Stimmrechtsregister"]
+        n2["Initialisierung der Krypto<br>Opt-In für E-Collecting<br>Opt-Out für Papierprozess"]
+        n6["Generierung der Berechtigungen<br>für Willensbekundung<br>(Pro Begehren und Individuum)"]
+  end
+ subgraph col3["Komitee"]
+        D["Lancierung Initiative<br>Ergreifung Referendum"]
+  end
+ subgraph col4["Öffentliches Board"]
+        n7["Veröffentlichung der<br>Berechtigungen für<br>Willensbekundung"]
+        n10["Veröffentlichung der<br>anonymen, beglaubigten<br>Unterschrift"]
+  end
+ subgraph col5["Amtsstelle"]
+        n12["Auszählen der Stimmen<br>aus dem Board"]
+  end
+ subgraph col6["Öffentlichkeit / Individuen"]
+        n14["Auszählen der Stimmen<br>aus dem Board"]
+  end
+    A --> n1
+    n1 --> n2
+    D --> n6
+    n6 --> n7
+    n7 --> n16
+    n8 --> n16
+    n16 --> n9
+    n9 --> n10
+    n10 --> n12 & n14
+
+
+```
+vision © is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+
+
+
+
+
 ```mermaid
 ---
 config:
