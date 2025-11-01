@@ -35,7 +35,7 @@ Unser System ermöglicht das digitale Sammeln von Unterschriften für Volksbegeh
 
 ### Schlusspräsentation
 
-[Praesentation.pdf](https://github.com/swiss/e-collecting-hackathon-team3/blob/main/presentation/Praesentation.pdf)
+[Schlusspräsentation als PDF](docs/schlusspraesentation.pdf)
 
 ## Team Members
 
