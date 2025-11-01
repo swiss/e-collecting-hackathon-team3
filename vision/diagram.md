@@ -58,15 +58,17 @@ config:
   layout: fixed
 ---
 flowchart TD
-    A["Bürger:in entscheidet sich für E-Collecting"] --> n1["Installation der App<br>Authentifizierung der Benutzer:in<br>Initialisierung der Krypto<br>Opt-In für E-Collecting<br>Opt-Out für Papierprozess"]
-    n1 --> n2["Initialisierung der Krypto<br>Opt-In für E-Collecting<br>Opt-Out für Papierprozess"]
-    D["Lancierung Initiative<br>Ergreifung Referendum"] --> n6["Generierung der Berechtigungen für Willensbekundung<br>(Pro Begehren und Individuum)"]
-    n6 --> n7["Veröffentlichung der Berechtigungen für Willensbekundung"]
-    n9["Download der Berechtigung für Willensbekundung und Verwendung zur Unterschrift"] --> n10["Veröffentlichung der anonymen, beglaubigten Unterschrift"]
-    n7 --> n16["Download der Berechtigung für Willensbekundung und Verwendung zur Unterschrift"]
-    n10 --> n12["Auszählen der Stimmen aus dem Board"] & n14["Auszählen der Stimmen aus dem Board"]
+    A["Bürger:in entscheidet sich für E-Collecting"] --> n1["Installation der App<br>Authentifizierung der Benutzer:in<br>Initialisierung der Krypto<br>Opt-In für E-Collecting"]
+    n1 --> n2["Initialisierung der Krypto<br>Opt-In für E-Collecting"]
+    n6["Generierung der Berechtigungen für Willensbekundung<br>(Täglich, pro Individuum)"] --> n7["Veröffentlichung der Berechtigungen für Willensbekundung"]
+    n7 --> n16["Download der Berechtigung für Willensbekundung, Verwendung zur Unterschrift und Zuweisung zu Komitee (freiwillig)"]
+    n10["Veröffentlichung der anonymen, beglaubigten Willensbekundung (Beweis)"] --> n12["Zählen der Unterschriften aus dem Board"] & n14@{ label: "Zählen der <span style=\"padding-left:\">Unterschriften</span> aus dem Board" } & n19@{ label: "Auszählen der <span style=\"padding-left:\">Unterschriften</span> aus dem Board und Feststellen Zusstanekommen/Nicht-Zustandekommen" } & n20["Prüfen der Unterschrift auf dem Board"]
     n8["Benutzer:in wählt Volksbegehren zur Unterzeichnung aus"] --> n16
-    n16 --> n9
+    n17["Lancierung Initiative<br>Ergreifung Referendum"] --> n18["Prüfung der Volksbegehren"]
+    n18 --> D["Veröffentlichung der Volksbegehren"]
+    D --> n8
+    n16 --> n10
+    n2 --> n6
     n3["Benutzer:in"]
     n4["Stimmrechtsregister"]
     n5["Öffentliches Board <br>"]
@@ -78,12 +80,15 @@ flowchart TD
     n2@{ shape: rect}
     n6@{ shape: rect}
     n7@{ shape: rect}
-    n9@{ shape: rect}
-    n10@{ shape: rect}
     n16@{ shape: rect}
+    n10@{ shape: rect}
     n12@{ shape: rect}
     n14@{ shape: rect}
+    n19@{ shape: rect}
+    n20@{ shape: rect}
     n8@{ shape: rect}
+    n17@{ shape: rect}
+    n18@{ shape: rect}
     n3@{ shape: text}
     n4@{ shape: text}
     n5@{ shape: text}
